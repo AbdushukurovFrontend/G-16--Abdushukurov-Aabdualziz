@@ -1,0 +1,288 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: rgb(238, 239, 241);
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  color: black;
+}
+
+.button-stil {
+  border-radius: 63px;
+  box-shadow: 0px 30px 60px 0px rgba(163, 168, 179, 0.15);
+  background: rgb(27, 27, 29);
+  width: 150px;
+  color: white;
+  padding: 8px;
+  border: none;
+}
+
+.nav-link {
+  color: black;
+}
+
+.header-card h1 {
+  color: rgb(27, 27, 29);
+  font-size: 104px;
+  font-weight: 800;
+  line-height: 140px;
+  text-align: left;
+}
+.header-card p {
+  color: rgb(100, 100, 106);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+}
+
+.button-hover {
+  border-radius: 126px;
+  background: rgb(27, 27, 29);
+  width: 150px;
+  padding: 10px;
+  border: none;
+  color: white;
+  height: 50px;
+  font-size: 13px;
+}
+
+nav {
+  background: rgb(238, 239, 241);
+  width: 100%;
+  padding: 1px;
+}
+
+.hader-best {
+  margin-top: 100px;
+}
+
+.text {
+  color: rgb(27, 27, 29);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+section {
+  width: 100%;
+  width: 100%;
+  position: relative;
+  padding: 1px;
+}
+section .img {
+  position: absolute;
+  left: -230px;
+  top: 100px;
+}
+
+.section-text {
+  margin-top: 130px;
+}
+.section-text h2 {
+  color: rgb(27, 27, 29);
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 70px;
+  text-align: center;
+}
+.section-text P {
+  color: rgb(100, 100, 106);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: center;
+}
+
+.exlore-card {
+  width: 300px;
+  border-radius: 24px;
+  box-shadow: 0px 30px 60px 0px rgba(163, 168, 179, 0.15);
+  background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.exlore-card h2 {
+  color: rgb(27, 27, 29);
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: left;
+}
+.exlore-card p {
+  color: rgb(100, 100, 106);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+.exlore-card img {
+  width: 96.18px;
+  height: 120px;
+}
+
+.order-card {
+  margin-top: 60px;
+}
+.order-card h2 {
+  color: rgb(27, 27, 29);
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 70px;
+  text-align: left;
+}
+.order-card P {
+  color: rgb(100, 100, 106);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+}
+
+.order-img {
+  transform: translateX(-13%);
+}
+
+.best-card {
+  border-radius: 24px;
+  box-shadow: 0px 20px 60px 0px rgba(163, 168, 179, 0.15);
+  background: linear-gradient(135deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+.best-card img {
+  width: 130px;
+  height: 200px;
+  margin-top: -70px;
+}
+.best-card p {
+  color: rgb(100, 100, 106);
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+.instanit-section {
+  position: relative;
+  padding: 1px;
+}
+.instanit-section .instant-img {
+  position: absolute;
+  left: -160px;
+  top: 0;
+}
+
+.instant-card {
+  margin-top: 150px;
+}
+.instant-card h2 {
+  color: rgb(27, 27, 29);
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 70px;
+  text-align: left;
+}
+.instant-card P {
+  color: rgb(100, 100, 106);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.customers-section {
+  position: relative;
+  padding: 1px;
+}
+
+.customer-cards {
+  margin-top: 200px;
+  position: absolute;
+  left: -100px;
+}
+
+.customer-card {
+  border-radius: 16px;
+  box-shadow: 0px 20px 60px 0px rgba(163, 168, 179, 0.15);
+  background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+
+.customer-car {
+  position: relative;
+  height: 300px;
+  margin-left: 50px;
+}
+
+.crcile-cards {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
+
+.crcile {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  padding-top: 13px;
+}
+
+.customer-img {
+  position: absolute;
+  top: -10px;
+  left: -140px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1290px) {
+  .section-text {
+    margin-top: 200px;
+  }
+  .exlore-cards {
+    margin-top: 100px;
+  }
+  .hader-card h1 {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .nest img {
+    margin-left: -120px;
+  }
+  .customer-car {
+    margin-left: 100px;
+  }
+  .header-card h1 {
+    color: rgb(27, 27, 29);
+    font-size: 70px;
+    font-weight: 800;
+    text-align: left;
+    line-height: normal;
+    margin-top: 80px;
+  }
+  .header-card p {
+    color: rgb(100, 100, 106);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+  }
+  .customer-card img {
+    width: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+}/*# sourceMappingURL=stayle.css.map */
